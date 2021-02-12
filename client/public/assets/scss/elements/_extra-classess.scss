@@ -1,0 +1,10 @@
+.ellipsis-text-3 {
+    display: block;
+    display: -webkit-box;
+    height: 70px;
+    max-width: 100%;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
